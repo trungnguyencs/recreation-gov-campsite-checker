@@ -1,0 +1,1 @@
+schtasks /create /sc minute /mo 5 /tn _NPS /tr 'Powershell.exe C:\Users\thanguyen\Documents\recreation-gov-campsite-checker\run.ps1 *> C:\Users\thanguyen\Documents\recreation-gov-campsite-checker\log.txt'
